@@ -88,7 +88,7 @@ body {
 }
 
 .contact {
-  /* border: 3px solid orange; */
+  border: 2px solid white;
   font-size: 20px;
   margin-top: 30px;
   height: 40px;
@@ -112,23 +112,24 @@ body {
   width: 1900px;
 }
 
-.about-box {
+/* .about-box {
   display: flex;
   justify-content: center;
   flex-direction: row;
   /* align-self: center; */
-  /* align-self: center; */
-  border: 3px solid red;
+/* align-self: center; */
+/* border: 3px solid red;
   height: 50px;
   width: 200px;
-  margin-top: 2rem;
-}
+  margin-top: 2rem; */
 
 .about-me {
   font-size: 36px;
   color: #1f2937;
   font-weight: bolder;
-  /* text-decoration: underline; */
+  font-family: sans-serif;
+  margin-top: 20px;
+  text-decoration: underline;
 }
 .container1 {
   width: 200px;
@@ -150,6 +151,7 @@ body {
   /* margin-top: 230px; */
   /* border: 3px solid green; */
   /* flex-flow: row wrap; */
+  /* margin-bottom: 200px; */
 }
 
 .box1 {
@@ -164,6 +166,7 @@ body {
 
 .text1 {
   text-align: center;
+  font-family: sans-serif;
   /* border: 3px solid blue; */
 }
 
@@ -175,6 +178,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #e5e7eb;
+  height: 300px;
 }
 
 .quote-box {
@@ -186,6 +190,7 @@ body {
   font-weight: 100;
   font-style: italic;
   color: #1f2937;
+
   /* border: 3px solid red; */
 }
 
@@ -216,7 +221,7 @@ body {
 .contact1 {
   font-size: 20px;
   color: white;
-  margin-top: 30px;
+  margin-top: 20px;
   height: 40px;
   width: 120px;
   display: flex;
@@ -239,6 +244,7 @@ body {
   align-items: center;
   margin-left: 450px;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .join {
@@ -247,6 +253,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+  font-size: 22px;
   /* margin-top: 150px; */
   /* margin-right: 200px; */
 }
